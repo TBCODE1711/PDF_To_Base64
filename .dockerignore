@@ -1,0 +1,16 @@
+# Environments
+.venv/
+venv/
+env/
+
+# Tests and temporary files
+PDFs tests/
+__pycache__/
+*.pyc
+
+# Docker and Git
+Dockerfile
+.dockerignore
+.git/
+.gitignore
+
