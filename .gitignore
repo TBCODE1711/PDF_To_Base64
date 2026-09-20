@@ -1,17 +1,21 @@
-# Environments
+# Ignore everything by default
+*
+# Allow Git to traverse directories
+!*/
+
+# Explicitly ignore unwanted directories so their contents are never tracked
 .venv/
 venv/
-env/
-
-# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
-*$py.class
-
-# IDEs / Editors
-.vscode/
 .idea/
+.vscode/
+PDFs tests/
 
-# Environment variables / Secrets
-.env
-
+# Un-ignore the specific file types and files we want to track
+!*.py
+!requirements.txt
+!Dockerfile
+!.dockerignore
+!.gitignore
+!מסמך אפיון.txt
+!GEMINI.md
