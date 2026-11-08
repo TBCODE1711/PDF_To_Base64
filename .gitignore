@@ -3,13 +3,15 @@
 # Allow Git to traverse directories
 !*/
 
-# Explicitly ignore unwanted directories so their contents are never tracked
+# Explicitly ignore unwanted directories and internal files so they are never tracked
 .venv/
 venv/
 __pycache__/
 .idea/
 .vscode/
 PDFs tests/
+מסמך אפיון.txt
+GEMINI.md
 
 # Un-ignore the specific file types and files we want to track
 !*.py
@@ -17,5 +19,4 @@ PDFs tests/
 !Dockerfile
 !.dockerignore
 !.gitignore
-!מסמך אפיון.txt
-!GEMINI.md
+!README.md

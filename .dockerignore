@@ -14,3 +14,7 @@ Dockerfile
 .git/
 .gitignore
 
+# Documentation and internal files
+מסמך אפיון.txt
+GEMINI.md
+README.md
